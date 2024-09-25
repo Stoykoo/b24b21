@@ -14,7 +14,11 @@ Para implementar un patrón de comportamiento en el contexto industrial con enfo
 <p align="justify">
   
 Tenemos una aplicación industrial que controla diferentes máquinas. Estas máquinas pueden ejecutar comandos como "Encender", "Apagar", y "Reiniciar". Utilizaremos el patrón Command para implementar estas acciones.
-  
+
+Comandos: Hay tres comandos concretos (EncenderMaquinaCommand, ApagarMaquinaCommand, ReiniciarMaquinaCommand) que encapsulan acciones sobre la máquina.
+
+Reutilización: Los comandos son reutilizables y pueden ser asignados a diferentes máquinas, lo que facilita la extensión de funcionalidades sin cambiar el código base.
+
 </p>
 
 # Código C#
